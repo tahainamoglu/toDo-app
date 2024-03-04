@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- stil -->
+    <style>
+      *{
+        box-sizing: border-box;
+        list-style-type: none;
+
+      }
+      body {
+        height: 100vh;
+        padding: 0;
+        margin: auto;
+    
+      }
+      ul {
+        padding: 0px;
+      }
+      .ciz{
+        text-decoration: line-through;
+      }
+      .renk{
+        background-color: red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container bg-secondary h-100  text-light">
+      <h1>ToDo App</h1>
+      <div class="input-group p-5 w-75 m-auto">
+        <input type="text" class="form-control" />
+        <button class="btn btn-primary">Ekle</button>
+      </div>
+
+      <div class="gorev">
+        <ul class="todo bg-light text-dark w-75 m-auto">
+         
+        </ul>
+        
+        <ul class="yapilanlar w-75 m-auto">
+         
+        </ul>
+      </div>
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/7d1ad1ed60.js" crossorigin="anonymous"></script>
+    <!-- boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
